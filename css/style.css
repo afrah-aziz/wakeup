@@ -747,3 +747,16 @@ section{
     }
 
 }
+
+
+.user-circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 10%;
+    overflow: hidden;
+}
+
+.user {
+    width: 20%;
+    height: auto;
+}
