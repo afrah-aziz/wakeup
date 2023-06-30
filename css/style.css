@@ -1,5 +1,77 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display:1,300,400,400italic,500,700,700italic,900');
 
+
+/* services */
+
+.services1{
+    background-color: var(--main-color);
+ }
+
+.services1 .box-container{
+    display: grid;
+    
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap:2rem;
+    
+ }
+ 
+ .services1 .box-container .box{
+    height: 100%;
+    /* width:100%; */
+    position: relative;
+    overflow: hidden;
+ }
+
+ .services1 .box-container .bottom-box {
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+  }
+  
+
+ .services1 .box-container .box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+ }
+ 
+ .services1 .box-container .box:hover img {
+    transform: scale(1.1);
+ }
+ 
+ .services1 .box-container .box .content{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top:0; left:0;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background: var(--dark-bg);
+ }
+ 
+ .services1 .box-container .box .content h3{
+    text-align: center;
+    font-size: 3rem;
+    color:var(--white);
+    padding-top: 40rem;
+    text-transform: capitalize;
+ }
+
+ .services1 .box-container .box:hover .content{
+    display: flex;
+    
+
+ }
+
+ 
+
+ /* services */
+
+
+
+
 :root{
 
     --main-color:#d7c7ae;
